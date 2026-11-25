@@ -1,0 +1,24 @@
+{
+  "cloudName": "AzureChinaCloud",
+  "noSql": {
+    "endpoint": "https://COSMOS_ACCOUNT.documents.azure.cn/",
+    "accountResourceId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/RESOURCE_GROUP/providers/Microsoft.DocumentDB/databaseAccounts/COSMOS_ACCOUNT",
+    "database": "DATABASE_NAME",
+    "containers": [
+      "CONTAINER_1",
+      "CONTAINER_2"
+    ]
+  },
+  "storage": {
+    "blobEndpoint": "https://STORAGE_ACCOUNT.blob.core.chinacloudapi.cn/",
+    "containers": [
+      "BACKUP_CONTAINER"
+    ],
+    "replicaBlobEndpoint": null
+  },
+  "backup": {
+    "managedIdentityClientId": "USER_ASSIGNED_IDENTITY_CLIENT_ID",
+    "retentionMonths": 13,
+    "noSqlContainer": "BACKUP_CONTAINER"
+  }
+}

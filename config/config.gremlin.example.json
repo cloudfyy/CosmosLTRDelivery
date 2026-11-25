@@ -1,0 +1,24 @@
+{
+  "cloudName": "AzureChinaCloud",
+  "gremlin": {
+    "accountResourceId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/RESOURCE_GROUP/providers/Microsoft.DocumentDB/databaseAccounts/COSMOS_GREMLIN_ACCOUNT",
+    "hostname": "COSMOS_GREMLIN_ACCOUNT.gremlin.cosmos.azure.cn",
+    "database": "DATABASE_NAME",
+    "graphs": [
+      "GRAPH_1",
+      "GRAPH_2"
+    ]
+  },
+  "storage": {
+    "blobEndpoint": "https://STORAGE_ACCOUNT.blob.core.chinacloudapi.cn/",
+    "containers": [
+      "BACKUP_CONTAINER"
+    ],
+    "replicaBlobEndpoint": null
+  },
+  "backup": {
+    "managedIdentityClientId": "USER_ASSIGNED_IDENTITY_CLIENT_ID",
+    "retentionMonths": 13,
+    "gremlinContainer": "BACKUP_CONTAINER"
+  }
+}

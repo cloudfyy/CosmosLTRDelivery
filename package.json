@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "package": "CosmosLTRDelivery",
+  "builtAtUtc": "2026-11-25T01:05:39.1555853Z",
+  "ltrTargetFramework": "net10.0",
+  "automationRuntime": "PowerShell72",
+  "project": "tool\\source\\LTRTool\\LTRTool.csproj",
+  "runbook": "automation\\Export-CosmosLTR.ps1",
+  "binariesIncluded": false
+}
